@@ -1,0 +1,111 @@
+﻿.body{
+    display: flex;
+    flex-flow: column;
+}
+
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-right: 20px;
+}
+
+#grid-icon{
+    height: 20px;
+    width: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 13px;
+    font-family: arial;
+}
+
+a :hover{
+    text-decoration: underline;
+}
+
+#signButton{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: #4387fd;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    font-family: arial;
+    color: white;
+}
+
+.googlelogo{
+margin-top: 122px;
+}
+
+.searchBar{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    width: 582px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.lemic{
+    width: 25px;
+    height: 25px;
+}
+
+.searchIcon{
+    width: 25px;
+    height: 25px;
+}
+
+input{
+    width: 447px;
+    height: 34px;
+    border: none;
+    outline: none;
+}
+
+.searchButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.Buttons{
+height: 36px;
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+color: #5F6368;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+}
+
+.footer{
+    background: #f2f2f2; 
+    line-height: 40px; 
+    position: absolute; 
+    bottom: 0px; 
+    width: 99%; 
+    color: rgba(0,0,0,.54);
+}
+
